@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="src\scenes\scenceGame\Editor.hpp" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14718" topLine="220" />
+		</Cursor>
+	</File>
+	<File name="src\scenes\scenceGame\screen_Game.hpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10093" topLine="215" />
+		</Cursor>
+	</File>
+	<File name="src\scenes\scenceGame\Player.hpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="95" topLine="26" />
+		</Cursor>
+	</File>
+	<File name="src\scenes\screens.hpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="346" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Cell.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="44" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="838" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="src\scenes\scence2\screen_2.hpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="src\scenes\scenceAgreement\screen_Agreement.hpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="672" topLine="19" />
+		</Cursor>
+	</File>
+	<File name="src\scenes\scenceTitle\screen_Title.hpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3026" topLine="59" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

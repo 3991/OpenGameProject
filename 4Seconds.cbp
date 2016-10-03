@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Roguelikelikelikelikelike" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Roguelikelikelikelikelike" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-s-d" />
+					<Add library="sfml-window-s-d" />
+					<Add library="sfml-network-s-d" />
+					<Add library="sfml-system-s-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ProjetTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics-s" />
+					<Add library="sfml-window-s" />
+					<Add library="sfml-network-s" />
+					<Add library="sfml-system-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="C:/Program Files (x86)/SFML-2.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics-s" />
+			<Add library="sfml-window-s" />
+			<Add library="sfml-system-s" />
+			<Add directory="C:/Program Files (x86)/SFML-2.1/lib" />
+		</Linker>
+		<Unit filename="include/Cell.h" />
+		<Unit filename="include/Fps.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Map.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Cell.cpp" />
+		<Unit filename="src/Fps.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/scenes/cScreen.cpp" />
+		<Unit filename="src/scenes/cScreen.hpp" />
+		<Unit filename="src/scenes/scence2/screen_2.hpp" />
+		<Unit filename="src/scenes/scenceAgreement/screen_Agreement.hpp" />
+		<Unit filename="src/scenes/scenceGame/Editor.hpp" />
+		<Unit filename="src/scenes/scenceGame/Player.hpp" />
+		<Unit filename="src/scenes/scenceGame/screen_Game.hpp" />
+		<Unit filename="src/scenes/scenceTitle/screen_Title.hpp" />
+		<Unit filename="src/scenes/screens.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
